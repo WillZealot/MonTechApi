@@ -7,7 +7,7 @@ const userSchema = new Schema(
         type: String,
         unique: true,
         required: true,
-        trimmed: true,
+        trim: true,
     },
     email: {
         type: String,
@@ -18,6 +18,7 @@ const userSchema = new Schema(
     thoughts: [
       {
         type: String,
+        ref: 'thought'
       },
     ],
     friends: [
@@ -27,10 +28,13 @@ const userSchema = new Schema(
         }
     ]
   },
+  {
+    toJSON: { getters: true, virtuals: true },
+  }
 );
 
 userSchema
-  .virtual('getFriends')
+  .virtual('friendCount')
   // Getter
   .get(function () {
     return this.friends.length;
