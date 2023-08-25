@@ -11,7 +11,10 @@ SO THAT my website can handle large amounts of unstructured data
 ## Video Link 
  
 Please refer to the following video for examples of the application's API routes being tested in Insomnia: 
-! insert video here !
+https://watch.screencastify.com/v/n439MxR70jrZXEuzAvJ7
+
+![Alt text](image.png)
+
 
  
 ## Getting Started 
