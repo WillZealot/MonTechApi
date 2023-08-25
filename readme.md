@@ -9,9 +9,11 @@ I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
 
 ## Video Link 
- 
+ Refer to models folder on how to properly add and create thoughts and users as well as reaction thanks
 Please refer to the following video for examples of the application's API routes being tested in Insomnia: 
 https://watch.screencastify.com/v/n439MxR70jrZXEuzAvJ7
+
+
 
 ![Alt text](image.png)
 
